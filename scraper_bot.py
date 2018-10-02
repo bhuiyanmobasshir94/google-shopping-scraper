@@ -446,7 +446,7 @@ class ThirdUi:
 
     def __init__(self, frame):
         self.frame = frame
-        photo = PhotoImage(file="BBP.png")
+        photo = PhotoImage(file="") # put logo image name here
         label = Label(self.frame,image=photo)
         label.image = photo
         label.grid(column=8, row=0, sticky="ne")
@@ -456,7 +456,7 @@ class App:
 
     def __init__(self, root):
         self.root = root
-        root.title('BuyBoxPro.com Scraper')
+        root.title('') # put your title here 
         root.columnconfigure(0, weight=1)
         root.rowconfigure(0, weight=1)
         # Create the panes and frames
